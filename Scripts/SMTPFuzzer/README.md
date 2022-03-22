@@ -84,26 +84,26 @@ python3 smtpFuzzer.py -e singlePayload.txt
 
 ## Sample Output :
 1 - `Multiple Payloads into All Fields`: 
-![alt text](https://github.com/0xb1tByte/OSWE-Journey/blob/main/Scripts/1.png)
+![alt text](https://github.com/0xb1tByte/OSWE-Journey/blob/main/Scripts/SMTPFuzzer/1.png)
 
 
 2 - `Multiple Payloads into One Field` :
-![alt text](https://github.com/0xb1tByte/OSWE-Journey/blob/main/Scripts/2.png)
+![alt text](https://github.com/0xb1tByte/OSWE-Journey/blob/main/Scripts/SMTPFuzzer/2.png)
 
 
 3 - `One Payload into All Fields` :
-![alt text](https://github.com/0xb1tByte/OSWE-Journey/blob/main/Scripts/3.png)
+![alt text](https://github.com/0xb1tByte/OSWE-Journey/blob/main/Scripts/SMTPFuzzer/3.png)
 
 
 4 - `One Payload into One Field` : 
-![alt text](https://github.com/0xb1tByte/OSWE-Journey/blob/main/Scripts/4.png)
+![alt text](https://github.com/0xb1tByte/OSWE-Journey/blob/main/Scripts/SMTPFuzzer/4.png)
 
 
 5 - Printing payloads list 
-![alt text](https://github.com/0xb1tByte/OSWE-Journey/blob/main/Scripts/5.png)
+![alt text](https://github.com/0xb1tByte/OSWE-Journey/blob/main/Scripts/SMTPFuzzer/5.png)
 
 
 6 - Crafting a well-formed payload :
-![alt text](https://github.com/0xb1tByte/OSWE-Journey/blob/main/Scripts/6.png)
+![alt text](https://github.com/0xb1tByte/OSWE-Journey/blob/main/Scripts/SMTPFuzzer/6.png)
 
 
