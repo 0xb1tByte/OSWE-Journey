@@ -26,6 +26,13 @@ re
 termcolor
 ```
 
+## Usage 
+```
+PYTHONIOENCODING=utf-8 python3 myParser.py 
+```
+- ``PYTHONIOENCODING=utf-8`` : to set the encoding explicitly  
+
+
 ## Sample Output 
 ![alt text](https://github.com/0xb1tByte/OSWE-Journey/blob/main/Scripts/HTMLParser/1.jpg)
 ![alt text](https://github.com/0xb1tByte/OSWE-Journey/blob/main/Scripts/HTMLParser/2.jpg)
