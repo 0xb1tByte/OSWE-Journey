@@ -40,5 +40,7 @@ PYTHONIOENCODING=utf-8 python3 myParser.py
 
 
 ## Notes: 
+- To run Remote test case, uncomment the ```221 & 222``` lines
+- For Remote test case, you need to place ``urls.txt`` file in the same path with the script
 - The script **is still under development**, expect **errors, mistakes**, and **garbage codes** .. etc
 - The script was developed for learning purposes 
