@@ -27,6 +27,9 @@ termcolor
 ```
 
 ## Sample Output 
+![alt text](https://github.com/0xb1tByte/OSWE-Journey/blob/main/Scripts/HTMLParser/1.jpg)
+![alt text](https://github.com/0xb1tByte/OSWE-Journey/blob/main/Scripts/HTMLParser/2.png)
+![alt text](https://github.com/0xb1tByte/OSWE-Journey/blob/main/Scripts/HTMLParser/3.png)
 
 
 ## Notes: 
